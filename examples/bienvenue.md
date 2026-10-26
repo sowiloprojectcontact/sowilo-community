@@ -1,0 +1,9 @@
+# Démonstration Sowilo Documents
+
+Sowilo Documents — démonstration
+
+Projet fictif : atelier documentaire.
+Échéance fictive : 15 novembre 2027.
+Montant fictif : 120 euros.
+Action proposée : relire les documents avant de décider.
+Ces données sont fictives et ne contiennent aucune information personnelle.

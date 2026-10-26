@@ -1,0 +1,52 @@
+[
+  {
+    "source": "codex-test/sowilo_data.py",
+    "destination": "sowilo_data.py",
+    "source_sha256": "0e86da7328932fb7097c2450cdacabc9f31387766a44ab52e90c1831505e6e98"
+  },
+  {
+    "source": "codex-test/sowilo_mini.py",
+    "destination": "sowilo_mini.py",
+    "source_sha256": "709a543b0b2c79b555c4c10a9f061ee2c6723c27aa2a3576c1da820cd60b91d6"
+  },
+  {
+    "source": "codex-test/test_sowilo.py",
+    "destination": "tests/test_mini.py",
+    "source_sha256": "106f62a5bb5c1f7cb4bbc3298862aeb2205ef3eb29e9497868b0668b6b229074"
+  },
+  {
+    "source": "Sowilo-Documents-V1/sowilo_documents/paths.py",
+    "destination": "community/paths.py",
+    "source_sha256": "eae11dc7940270cc99f156d2ae2489fae5cffd1645143d439bc8b479254d8e8d"
+  },
+  {
+    "source": "Sowilo-Documents-V1/sowilo_documents/config.py",
+    "destination": "community/config.py",
+    "source_sha256": "cc2c3f9088d87ed15560d51ebadd967c10e6d849cb510371cbc8a4ed681905a0"
+  },
+  {
+    "source": "Sowilo-Builder-0.1/modules/chat_groq/client.py",
+    "destination": "community/groq.py",
+    "source_sha256": "5472b61966905edb01dba9ca5945b43e03e8879008579e00b9e5e63cb613f80b"
+  },
+  {
+    "source": "Sowilo-Documents-V1/modules/documents/service.py",
+    "destination": "modules/documents/service.py",
+    "source_sha256": "b0bca3a5b6187e26c2be0f52c4de8af25ee7eec4760748170b551754b9540e6a"
+  },
+  {
+    "source": "Sowilo-Documents-V1/modules/documents/__init__.py",
+    "destination": "modules/documents/__init__.py",
+    "source_sha256": "b6aed301fd1b0ecf9c2e83c0660cdd0c515e0678a0fd270febd56c4851695484"
+  },
+  {
+    "source": "Sowilo-Documents-V1/tests/test_documents_service.py",
+    "destination": "tests/test_documents_service.py",
+    "source_sha256": "6348b1f9cf964152e633fce3658f3e997ac16d99d800286e449fa9103017f0e6"
+  },
+  {
+    "source": "Sowilo-Documents-V1/tests/test_documents_logging.py",
+    "destination": "tests/test_documents_logging.py",
+    "source_sha256": "22bbe5c6ddf0ae27ce5976c64e06a0f2d97d03a9c148a308b17b92ff04f85be6"
+  }
+]

@@ -1,0 +1,164 @@
+# Licence d’utilisation personnelle de Sowilo Community
+
+**Version 1.0 — 25 octobre 2026**
+
+**Titulaire : Rémy Duhem, entrepreneur individuel (auto-entrepreneur).**
+
+Copyright © 2026 Rémy Duhem, pour les éléments sur lesquels il détient les droits.
+
+## 1. Objet et périmètre
+
+La présente licence définit les droits accordés à la personne physique qui reçoit
+licitement un exemplaire de Sowilo Community auprès du Titulaire ou d’une source
+qu’il autorise, ci-après « l’Utilisateur ».
+
+Elle concerne le code propre à Sowilo Community et les textes, exemples et
+ressources qui l’accompagnent, uniquement dans la mesure où le Titulaire dispose
+des droits nécessaires. Elle ne concerne pas les composants tiers identifiés par
+leurs propres licences, ni les documents et données de l’Utilisateur.
+
+Les droits non expressément accordés sont réservés, sous réserve des droits
+impératifs prévus par la loi et des licences tierces visées à l’article 5.
+
+## 2. Utilisation personnelle autorisée
+
+Le Titulaire accorde à l’Utilisateur une autorisation gratuite, personnelle, non
+exclusive et non transférable, dans le monde entier, pour la durée de protection
+des droits concernés, sous réserve du respect de la présente licence.
+
+L’Utilisateur peut :
+
+- installer et exécuter Sowilo Community sur ses appareils pour ses besoins
+  strictement personnels, privés et non commerciaux ;
+- conserver les copies nécessaires à cette utilisation et à ses sauvegardes privées ;
+- consulter, étudier, corriger et modifier le code pour ces mêmes besoins ;
+- utiliser ses versions modifiées à titre privé, sans les mettre à disposition de tiers.
+
+Par exemple, la gestion de notes personnelles, de tâches domestiques ou de
+documents privés, ainsi que l’apprentissage individuel hors activité
+professionnelle, entrent dans ce cadre.
+
+Aucune obligation de communiquer au Titulaire les modifications privées n’est
+imposée. L’Utilisateur conserve les droits qu’il détient sur ses propres ajouts ;
+cela ne lui accorde aucun droit supplémentaire sur les éléments préexistants de
+Sowilo ni le droit de distribuer une version qui les contient.
+
+## 3. Usages soumis à une autorisation distincte
+
+Sauf autorisation écrite préalable du Titulaire et sous réserve des articles 5 et 6,
+les usages suivants du périmètre défini à l’article 1 ne sont pas autorisés :
+
+- l’utilisation dans le cadre d’une activité professionnelle, salariée ou
+  indépendante, même sans facturation directe de l’utilisation du logiciel ;
+- l’utilisation pour les besoins d’une entreprise, d’une association, d’une
+  administration ou de toute autre organisation, y compris sans but lucratif ;
+- la vente, la revente, la location, la sous-licence ou l’intégration dans une
+  offre commerciale ou une prestation à des tiers ;
+- la redistribution ou la mise à disposition à des tiers, gratuitement ou contre
+  paiement, de tout ou partie du logiciel ou d’une version modifiée, notamment
+  par archive, dépôt de code, miroir, téléchargement ou service hébergé ;
+- la réutilisation du code ou des ressources concernés dans un produit ou service
+  destiné à des tiers.
+
+La copie privée sur un stockage personnel ou un espace de sauvegarde à accès
+restreint pour le seul compte de l’Utilisateur reste autorisée. Elle ne doit pas
+donner à des tiers un droit ou un accès d’utilisation du logiciel.
+
+L’accès à une version destinée aux clients et ses conditions éventuelles font
+l’objet d’un accord distinct. Cette licence ne donne aucun droit sur une autre
+édition ou sur les fonctionnalités de versions futures.
+
+## 4. Mentions, identité et versions modifiées
+
+Les copies privées et versions modifiées doivent conserver les mentions de
+copyright, la présente licence et les notices tierces applicables.
+
+L’Utilisateur ne doit pas présenter une version modifiée comme une version
+officielle ou approuvée par le Titulaire. La licence n’accorde pas le droit
+d’utiliser le nom ou les signes distinctifs Sowilo pour promouvoir une offre,
+faire croire à une affiliation ou revendiquer une approbation du Titulaire.
+Les références descriptives licites au logiciel ne sont pas interdites.
+
+## 5. Composants tiers
+
+Les composants tiers conservent leurs licences et leurs titulaires respectifs.
+Les limitations d’usage personnel, de redistribution, de modification ou de
+commercialisation prévues ici ne s’appliquent pas à un composant tiers lorsque
+sa propre licence accorde ces droits.
+
+En cas de divergence concernant un composant tiers, sa licence prévaut pour ce
+composant. L’Utilisateur peut exercer les droits de copie, modification,
+redistribution et autres droits que celle-ci lui accorde. Les exigences liées à
+une bibliothèque sous LGPL, lorsqu’elle est effectivement fournie, y compris
+les droits nécessaires de remplacement, de modification ou de débogage de ces
+modifications, ne sont pas limitées par la présente licence.
+
+Les notices accompagnant les composants font foi. L’inventaire disponible dans
+`docs/INVENTAIRE_LICENCES.json` est un relevé de l’environnement examiné, pas une
+licence de remplacement ni une liste garantie de toute installation future.
+
+## 6. Droits légaux préservés
+
+Aucune disposition ne limite les droits auxquels l’Utilisateur ne peut légalement
+renoncer. Sont notamment préservés, dans leurs conditions légales, les droits de
+copie de sauvegarde, d’observation, d’étude, de test du fonctionnement ou de la
+sécurité, ainsi que les actes nécessaires à l’interopérabilité.
+
+Une clause ne peut pas être interprétée comme interdisant un acte autorisé par
+une disposition impérative applicable à l’Utilisateur.
+
+## 7. Données de l’Utilisateur et services externes
+
+La présente licence n’accorde au Titulaire aucun droit sur les notes, tâches,
+documents ou autres contenus de l’Utilisateur. Elle ne place pas les fichiers
+exportés ni les résultats obtenus sous la licence de Sowilo. Les droits éventuels
+de tiers sur ces contenus ou résultats restent applicables.
+
+Les services externes facultatifs, notamment l’API Groq et les modèles choisis,
+sont soumis à leurs propres conditions, critères d’accès, tarifs et politiques.
+Leur utilisation nécessite les droits et autorisations correspondants. La présente
+licence ne garantit ni leur gratuité, ni leur disponibilité, ni l’éligibilité de
+l’Utilisateur à ces services et ne donne pas le droit de revendre leur accès.
+
+## 8. Garantie, assistance et responsabilité
+
+Dans les limites permises par la loi, le logiciel est fourni en l’état, sans
+engagement de fonctionnement ininterrompu, d’absence d’erreurs, d’adéquation à un
+besoin particulier, d’assistance ou de mise à jour. Les résultats d’IA nécessitent
+une vérification par l’Utilisateur avant qu’il s’y fie.
+
+L’Utilisateur est invité à conserver des sauvegardes de ses données. Cette
+recommandation ne réduit pas les obligations légales du Titulaire.
+
+Aucune disposition n’exclut une garantie, une réparation ou une responsabilité
+qui ne peut légalement être exclue ou limitée, ni ne prive l’Utilisateur des
+protections impératives dont il bénéficie, notamment en qualité de consommateur.
+
+## 9. Manquement et fin de l’autorisation
+
+En cas de manquement substantiel, le Titulaire peut notifier le manquement à
+l’Utilisateur et lui demander d’y mettre fin dans un délai de trente jours.
+À défaut de régularisation dans ce délai, le Titulaire peut mettre fin à
+l’autorisation accordée par cette licence, sous réserve des règles impératives.
+Il conserve les recours légaux applicables en cas de violation de ses droits.
+
+À la fin de l’autorisation, l’Utilisateur doit cesser les utilisations qui
+reposaient sur celle-ci et supprimer les copies concernées, sous réserve des
+copies dont la conservation est légalement requise. Ses données personnelles
+et ses droits indépendants sur les composants tiers ne sont pas affectés.
+
+La publication de nouvelles conditions n’altère pas rétroactivement les droits
+accordés sur un exemplaire reçu sous la présente version.
+
+## 10. Droit applicable et dispositions finales
+
+La présente licence est soumise au droit français, sans priver l’Utilisateur des
+protections impératives applicables dans son pays de résidence. Aucun tribunal
+exclusif n’est imposé au consommateur par cette licence.
+
+Si une disposition est inapplicable, les autres restent applicables dans la
+mesure permise par la loi. Une autorisation plus large ne peut résulter que d’un
+accord distinct du Titulaire habilité à l’accorder.
+
+Le présent texte porte uniquement sur Sowilo Community. Il ne constitue pas une
+licence open source et ne s’applique pas automatiquement aux autres projets Sowilo.

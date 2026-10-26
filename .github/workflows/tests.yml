@@ -1,0 +1,22 @@
+name: Community checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: System prerequisites
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+      - name: Dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Import diagnostic
+        run: python main.py --check
+      - name: Isolated tests
+        run: python -m unittest discover -s tests -v
+      - name: Syntax
+        run: python -m compileall -q main.py community modules sowilo_data.py sowilo_mini.py tests
