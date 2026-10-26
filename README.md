@@ -27,7 +27,11 @@ et rune Sowilo dessinée en vectoriel dans Tkinter. Le thème ne nécessite ni p
 Notes, tâches et lecture fonctionnent sans compte ni réseau. Groq est le seul
 connecteur opérationnel dans cette V1. La frontière fournisseur est séparée pour
 permettre des connecteurs ultérieurs ; OpenAI, Gemini, Claude et Mistral ne sont
-pas encore implémentés. Les éventuels frais et quotas d’API sont ceux du fournisseur.
+pas encore implémentés. Chaque utilisateur crée son compte et utilise sa propre clé Groq ; Sowilo ne
+fournit ni ne revend d’accès API. Les éventuels frais et quotas sont ceux du
+fournisseur. L’accès reste soumis à l’éligibilité du compte et aux conditions Groq,
+y compris ses restrictions de public : voir [connexion Groq](docs/API_GROQ.md).
+D’autres connecteurs sont envisagés pour la V2, sans disponibilité annoncée en V1.
 
 ## Installation Linux
 
@@ -190,11 +194,19 @@ Une configuration illisible est signalée et conservée, sans réinitialisation 
 `sowilo_mini.py` reprennent les fonctions locales ; `modules/documents/` contient
 la brique de lecture réutilisée. Provenance dans `docs/PROVENANCE.json`.
 Le paquet source exclut environnements, données, secrets, caches et archives.
-Le workflow GitHub de tests est préparé mais n’a pas été exécuté sur GitHub.
+Le premier workflow GitHub de tests a réussi le 26 octobre 2026 (exécution
+40287004824, résultat transmis par le porteur). Cela ne remplace pas une recette
+graphique ni un test sur un système Linux neuf.
 
 ## Publication et licence
 
-Cette copie est une préversion locale. Rien n’est encore publié sur GitHub.
+Éditeur : Rémy Duhem, entrepreneur individuel. Contact :
+[sowiloprojectcontact@gmail.com](mailto:sowiloprojectcontact@gmail.com).
+
+Cette version est une préversion Linux. Les sources ont été envoyées sur
+[le dépôt GitHub officiel](https://github.com/sowiloprojectcontact/sowilo-community)
+le 26 octobre 2026 ; la première CI a réussi. Une release publique n’est pas
+encore annoncée et l’installation sur Linux neuf reste non validée.
 Community est distribuée sous une [licence personnelle propriétaire](LICENSE),
 version 1.0, au nom de Rémy Duhem, entrepreneur individuel : usage personnel
 non commercial gratuit et modifications privées autorisées ; usage professionnel,
@@ -208,6 +220,9 @@ Sowilo, hors composants tiers recensés.
 L'[audit des licences du 25 octobre 2026](docs/AUDIT_LICENCES.md) détaille les
 dépendances, les obligations de redistribution et les droits restant à confirmer.
 Les preuves locales sont recensées dans `docs/INVENTAIRE_LICENCES.json`.
+Les [notices tierces](THIRD_PARTY_NOTICES) décrivent le périmètre de la livraison
+source. Le [contrôle du 26 octobre](docs/CONTROLE_PUBLICATION_2026-10-26.md)
+distingue les résultats acquis et les points restant à décider.
 
 La [revue du texte](docs/REVUE_LICENCE_PERSONNELLE.md) conserve les décisions et
 la confirmation du titulaire. Les autres points de préparation à la diffusion

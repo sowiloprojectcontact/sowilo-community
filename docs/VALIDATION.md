@@ -1,5 +1,12 @@
 # Validation de Community V1 — préversion locale
 
+Mise à jour du 26 octobre 2026 : 119 tests locaux réussis et première CI GitHub
+réussie, selon le résultat transmis par le porteur. L’essai Mint en VM a été
+interrompu à cause des problèmes de démarrage et des ralentissements du PC ;
+il ne valide ni l’installation de Community ni son interface sur un OS neuf.
+Voir [le contrôle actualisé](CONTROLE_PUBLICATION_2026-10-26.md).
+Les sections suivantes sont historiques.
+
 Le contrôle le plus récent, après retrait du catalogue le 25 octobre 2026,
 est décrit dans [AUDIT_PREPUBLICATION.md](AUDIT_PREPUBLICATION.md).
 Les passages ci-dessous conservent l'historique des validations précédentes.
@@ -118,3 +125,9 @@ visuellement dans une session graphique accessible.
 
 La boutique, les activations et mises à jour automatiques de modules ne sont pas
 implémentées. Le catalogue de cette livraison ne télécharge ni n’exécute de code.
+
+## Reprise avant publication — 26 octobre 2026
+
+119 tests réussis ; diagnostic main.py --check et pip check réussis.
+Archive source reconstruite avec 77 fichiers. Le connecteur confirme que le dépôt
+est encore privé ; le titulaire a demandé son passage en public.

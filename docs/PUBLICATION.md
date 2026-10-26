@@ -1,9 +1,18 @@
 # Préparation de Sowilo Community pour GitHub
 
-État au 25 octobre 2026 : préversion locale, publication distante non réalisée.
-Le catalogue et les parcours commerciaux ont été retirés de l'application.
-Visibilité choisie par le porteur : **dépôt GitHub privé**.
-Le dépôt Git local est initialisé sur `main`, sans commit ni dépôt distant.
+État au 26 octobre 2026 : sources envoyées sur
+`https://github.com/sowiloprojectcontact/sowilo-community`, branche `main`,
+commit initial `6548741`. Le porteur a transmis le succès du push et de la CI
+`40287004824` (37 s). L’accès distant a ensuite été vérifié par le connecteur GitHub.
+Le catalogue et les parcours commerciaux ont été retirés de l’application.
+Le dépôt est encore privé, état vérifié sur GitHub le 26 octobre 2026.
+Le titulaire a demandé de terminer la publication et de le rendre public. Une sortie à 10 h, heure de Paris, est souhaitée,
+mais aucune publication automatique n’est programmée.
+
+Le [contrôle actualisé](CONTROLE_PUBLICATION_2026-10-26.md) et la
+[précision de licence proposée](LICENCE_GITHUB_PROPOSITION.md) décrivent les
+points à traiter avant une diffusion publique. Les étapes ci-dessous conservent
+la liste de préparation ; plusieurs sont désormais réalisées.
 
 ## Licence personnelle installée
 
@@ -28,8 +37,8 @@ conserve les décisions et la confirmation du titulaire.
 
 - Sources et tests autonomes dans ce dossier ; aucun autre projet Sowilo à pousser.
 - README avec installation, confidentialité, limites et liens vers les audits.
-- Workflow `.github/workflows/tests.yml` préparé ; son exécution sur GitHub
-  reste à vérifier après le premier envoi.
+- Workflow `.github/workflows/tests.yml` présent ; première exécution réussie
+  selon le résultat transmis par le porteur.
 - `.gitignore` excluant environnements, bases, secrets usuels et archives générées.
   L'exclusion par nom ne remplace pas la relecture des fichiers à publier.
 - Paquet source construit par `scripts/package.py`, avec notices légales et

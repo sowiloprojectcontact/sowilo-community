@@ -1,0 +1,51 @@
+# Composants tiers — Sowilo Community
+
+Relevé du 26 octobre 2026 pour la distribution source Linux.
+Les restrictions de LICENSE ne remplacent pas les licences tierces.
+
+## Ce que cette archive fournit
+
+Sources Sowilo, exemples fictifs, tests, ressources et copies de notices dans
+docs/licences/. Elle ne fournit ni Python, ni environnement .venv, ni wheel,
+ni bibliothèque native, ni poids de modèle. install.sh télécharge les dépendances
+depuis l'index pip configuré sur la machine de l'utilisateur.
+
+## Dépendances de fonctionnement examinées
+
+- pypdf 6.19.0 : BSD-3-Clause.
+  Notice : docs/licences/pypdf-6.19.0/pypdf-6.19.0.dist-info/licenses/LICENSE
+- python-docx 1.2.0 : MIT.
+  Notice : docs/licences/python-docx-1.2.0/python_docx-1.2.0.dist-info/licenses/LICENSE
+- lxml 6.1.3 dans l'environnement examiné : BSD-3-Clause pour le cœur.
+  Notices : docs/licences/lxml-6.1.3/lxml-6.1.3.dist-info/licenses/LICENSE.txt
+  et LICENSES.txt dans le même dossier. Les composants associés ont leurs
+  propres conditions, dont la LGPL pour libiconv lorsqu'elle est fournie.
+- typing_extensions 4.16.0 dans l'environnement examiné : PSF-2.0.
+  Notice : docs/licences/typing_extensions-4.16.0/typing_extensions-4.16.0.dist-info/licenses/LICENSE
+
+Les dépendances indirectes ne sont pas verrouillées. Ces versions décrivent
+l'environnement examiné, pas toute installation future.
+
+## Développement et coffre facultatif
+
+ReportLab 5.0.1 (BSD), Pillow 12.3.0 (MIT-CMU et notices secondaires) et
+charset-normalizer 3.5.2 (MIT) servent aux tests et à leurs documents temporaires.
+Leurs notices sont conservées sous docs/licences/, avec celles de polices et
+composants associés. Ces bibliothèques et polices ne sont pas embarquées ici.
+
+Le coffre facultatif installe keyring 25.7.0 (MIT) et ses dépendances.
+docs/INVENTAIRE_INSTALLATION.json décrit une résolution antérieure sous Python
+3.12 ; docs/AUDIT_LICENCES.md décrit les licences attendues et leurs limites.
+Les wheels du coffre ne sont pas redistribués par cette archive. Une distribution
+qui les embarque devra fournir les notices exactes de tous ses composants.
+
+## Services et composants système
+
+Python, Tk, SQLite et le coffre du système sont des prérequis externes.
+Groq est un service facultatif indépendant, avec un compte et une clé propres à
+l'utilisateur. Son contrat ne constitue pas une licence du code Sowilo.
+Le modèle par défaut gpt-oss-20b a une licence Apache-2.0 ; aucun poids n'est livré.
+Voir docs/API_GROQ.md pour les conditions et la confidentialité.
+
+Les copies de notices font foi pour leur texte. Cette synthèse n'accorde aucun
+droit supplémentaire sur les composants tiers et ne certifie pas un futur bundle.
