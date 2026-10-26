@@ -1,13 +1,20 @@
-# ᛋ Sowilo Community V1
+# ᛋ Sowilo Community
+
+[![Tests](https://github.com/sowiloprojectcontact/sowilo-community/actions/workflows/tests.yml/badge.svg)](https://github.com/sowiloprojectcontact/sowilo-community/actions/workflows/tests.yml)
+![Plateforme : Linux](https://img.shields.io/badge/plateforme-Linux-7c3aed)
+![Python : 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776ab)
+
+**Préversion Linux · Usage personnel non commercial gratuit · IA facultative**
+
+[Installation](#installation-linux) · [Premiers pas](#découverte-en-cinq-minutes) · [Confidentialité](#confidentialité-et-stockage) · [Signaler un problème](https://github.com/sowiloprojectcontact/sowilo-community/issues) · [Documentation](docs/README.md)
 
 Un espace de travail gratuit pour vos notes, vos tâches et vos documents,
 avec un assistant IA facultatif. Première version de développement pour Linux.
 
 **Sowilo automatise, l’humain décide.**
 
-L’interface associe fond presque noir, panneaux violets, accents néon, texte blanc
-et rune Sowilo dessinée en vectoriel dans Tkinter. Le thème ne nécessite ni police
-à télécharger ni ressource graphique distante.
+Interface sombre avec panneaux violets et accents néon, construite avec Tkinter.
+Aucune police ni ressource graphique distante nécessaire.
 
 ## Ce que vous pouvez essayer
 
@@ -45,7 +52,15 @@ Sur Debian/Ubuntu/Zorin, si les prérequis système manquent :
 sudo apt install python3 python3-venv python3-tk
 ```
 
-Depuis le dossier extrait :
+Téléchargez les sources avec **Code → Download ZIP**, puis extrayez l’archive.
+Vous pouvez aussi utiliser Git :
+
+```sh
+git clone https://github.com/sowiloprojectcontact/sowilo-community.git
+cd sowilo-community
+```
+
+Depuis le dossier du projet :
 
 ```sh
 ./install.sh
@@ -194,9 +209,10 @@ Une configuration illisible est signalée et conservée, sans réinitialisation 
 `sowilo_mini.py` reprennent les fonctions locales ; `modules/documents/` contient
 la brique de lecture réutilisée. Provenance dans `docs/PROVENANCE.json`.
 Le paquet source exclut environnements, données, secrets, caches et archives.
-Le premier workflow GitHub de tests a réussi le 26 octobre 2026 (exécution
-40287004824, résultat transmis par le porteur). Cela ne remplace pas une recette
-graphique ni un test sur un système Linux neuf.
+Les [contrôles GitHub Actions](https://github.com/sowiloprojectcontact/sowilo-community/actions/workflows/tests.yml)
+vérifient les dépendances, le diagnostic de lancement, les tests et la syntaxe sous
+Python 3.12. Ils ne remplacent pas une recette graphique ni un test sur un système
+Linux de bureau neuf.
 
 ## Publication et licence
 
@@ -205,7 +221,7 @@ graphique ni un test sur un système Linux neuf.
 
 Cette version est une préversion Linux. Les sources ont été envoyées sur
 [le dépôt GitHub officiel](https://github.com/sowiloprojectcontact/sowilo-community)
-le 26 octobre 2026 ; la première CI a réussi. Une release publique n’est pas
+le 26 octobre 2026 ; les deux premières exécutions de la CI ont réussi. Une release publique n’est pas
 encore annoncée et l’installation sur Linux neuf reste non validée.
 Community est distribuée sous une [licence personnelle propriétaire](LICENSE),
 version 1.0, au nom de Rémy Duhem, entrepreneur individuel : usage personnel
@@ -214,22 +230,14 @@ redistribution et revente soumis à une autorisation distincte. Les droits des
 composants tiers et les exceptions légales restent préservés. Community n'est
 pas un logiciel open source.
 
-Le porteur a confirmé ses droits sur les éléments repris des autres projets
-Sowilo, hors composants tiers recensés.
+Les composants tiers sont recensés dans les [notices tierces](THIRD_PARTY_NOTICES).
+Les documents de provenance, de validation et de préparation à la diffusion sont
+regroupés dans l’[index de documentation](docs/README.md).
 
-L'[audit des licences du 25 octobre 2026](docs/AUDIT_LICENCES.md) détaille les
-dépendances, les obligations de redistribution et les droits restant à confirmer.
-Les preuves locales sont recensées dans `docs/INVENTAIRE_LICENCES.json`.
-Les [notices tierces](THIRD_PARTY_NOTICES) décrivent le périmètre de la livraison
-source. Le [contrôle du 26 octobre](docs/CONTROLE_PUBLICATION_2026-10-26.md)
-distingue les résultats acquis et les points restant à décider.
+## Aide et retours
 
-La [revue du texte](docs/REVUE_LICENCE_PERSONNELLE.md) conserve les décisions et
-la confirmation du titulaire. Les autres points de préparation à la diffusion
-restent suivis dans `docs/PUBLICATION.md`.
-
-## Préparation GitHub
-
-Le catalogue d’applications a été retiré de Community. Le suivi de préparation
-à GitHub et les contrôles restant à faire figurent dans [PUBLICATION.md](docs/PUBLICATION.md).
-La licence personnelle est installée à la racine et incluse dans le paquet source.
+Pour signaler un problème, ouvrez une
+[issue](https://github.com/sowiloprojectcontact/sowilo-community/issues) en indiquant
+votre distribution Linux, la version de Python, les étapes de reproduction et le
+message d’erreur. Retirez les clés API et les contenus personnels des captures
+et journaux partagés.
